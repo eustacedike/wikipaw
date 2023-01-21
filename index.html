@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         
         <h1><img src="./images/Picsart_23-01-19_20-00-32-092.jpg" alt="">Wiki<span style="color: #a3612c;">Paw</span></h1>
        
@@ -21,7 +21,7 @@
                 <li><a href="#">Links</a></li>
             </ul>
 
-            <div class="hamburger">
+            <div class="hamburger" id="hamburger" onclick="menu()">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -49,19 +49,19 @@
 
         <h1 class="typical">FEATURES</h1>
         <section class="features">
-            <div class="feature">
+            <div class="feature" id="feature1">
                 <h1>Fair Launch</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nemo dolorem nostrum.</p>
             </div>
-            <div class="feature">
+            <div class="feature" id="feature2">
                 <h1>Fair Launch</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nemo dolorem nostrum.</p>
             </div>
-            <div class="feature">
+            <div class="feature" id="feature3">
                 <h1>Fair Launch</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nemo dolorem nostrum.</p>
             </div>
-            <div class="feature">
+            <div class="feature" id="feature4">
                 <h1>Fair Launch</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nemo dolorem nostrum.</p>
             </div>
@@ -71,7 +71,7 @@
 <br> <br><br>
         <section class="roadmaps">
             <h1 class="typical">ROADMAP</h1>
-            <div class="roadmap odd">
+            <div class="roadmap odd" id="phase1">
                 <h2>PHASE 1</h2> <hr> <br>
                 <ul>
                     <li>Coin Launch</li>
@@ -86,7 +86,7 @@
 
             <hr class="vert">
 
-            <div class="roadmap even">
+            <div class="roadmap even" id="phase2">
                 <h2>PHASE 2</h2> <hr> <br>
                 <ul>
                     <li>CoinMarketCap Listing</li>
@@ -100,7 +100,7 @@
             <hr class="vert">
 
 
-            <div class="roadmap odd">
+            <div class="roadmap odd" id="phase3">
                 <h2>PHASE 3</h2> <hr> <br>
                 <ul>
                     <li>CEX Listing</li>
@@ -115,7 +115,7 @@
 
             <hr class="vert">
 
-            <div class="roadmap even">
+            <div class="roadmap even" id="phase4">
                 <h2>PHASE 4</h2> <hr> <br>
                 <ul>
                     <li>30K Holders</li>
@@ -180,5 +180,7 @@
         </ul>
     </div>
     </footer>
+
+    <script src="./app.js"></script>
 </body>
 </html>
