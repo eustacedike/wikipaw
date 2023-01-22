@@ -310,6 +310,8 @@ font-family: 'Ubuntu', sans-serif;
 
 #buy-list{
     margin: 0 auto;
+    padding: 15px 2vw;
+
 }
 
 #buy-list li{

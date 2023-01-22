@@ -14,17 +14,25 @@ var i = document.getElementById('allocation');
 window.addEventListener('scroll', ()=>{
     if ((window.innerHeight + window.pageYOffset) > (a.offsetTop + 160)) {
         a.style.transform = "scale(1)";
-        b.style.transform = "scale(1)";
     } else {
         a.style.transform = "scale(0)";
+    }
+
+    if ((window.innerHeight + window.pageYOffset) > (b.offsetTop + 160)) {
+        b.style.transform = "scale(1)";
+    } else {
         b.style.transform = "scale(0)";
     }
 
     if ((window.innerHeight + window.pageYOffset) > (c.offsetTop + 160)) {
         c.style.transform = "scale(1)";
-        d.style.transform = "scale(1)";
     } else {
         c.style.transform = "scale(0)";
+    }
+
+    if ((window.innerHeight + window.pageYOffset) > (d.offsetTop + 160)) {
+        d.style.transform = "scale(1)";
+    } else {
         d.style.transform = "scale(0)";
     }
 
