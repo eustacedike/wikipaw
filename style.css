@@ -23,6 +23,11 @@ body {
     overflow-x: hidden;
 }
 
+.material-icons {
+    font-size: larger !important;
+    vertical-align: -4px;
+}
+
 main {
     width: 100%;
     overflow-x: hidden;
@@ -180,7 +185,7 @@ font-weight: 800;
 
 .hero p {
     /* font-size: 22px; */
-    font-size: clamp(16px, 2.1vw, 26px);
+    font-size: clamp(13px, 2.1vw, 26px);
 
 /* font-family: 'Yeon Sung', cursive; */
 }
@@ -310,23 +315,32 @@ font-family: 'Ubuntu', sans-serif;
 
 #buy-list{
     margin: 0 auto;
-    padding: 15px 2vw;
+    padding: 25px 2vw;
 
 }
 
 #buy-list li{
    background-color: rgb(0, 0, 0,0.45);
-   padding: 4px 7px;
+   padding: 7px 7px;
    border-radius: 3px;
    list-style-type: none;
+   margin-left: 0;
 } 
 
 #buy-list li::before{
-   content: "00";
+   content: "\26A1";
    margin-right: 4px;
-   background-color: green;
+   background-color: yellow;
    padding: 1px 3px;
    border-radius: 3px;
+ } 
+
+ #buy-list button{
+    background-color: rgb(0, 0, 0);
+    padding: 1px 7px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid white;
  } 
  
 

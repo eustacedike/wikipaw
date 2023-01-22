@@ -9,22 +9,23 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="shortcut icon" href="./images/transp.png" type="image/x-icon">
 </head>
 
 <body>
     <header id="header">
 
-        <h1><img src="./images/Picsart_23-01-19_20-00-32-092.jpg" alt="">Wiki<span style="color: #a3612c;">Paw</span>
-        </h1>
+        <a href="#"><h1><img src="./images/Picsart_23-01-19_20-00-32-092.jpg" alt="">Wiki<span style="color: #a3612c;">Paw</span>
+        </h1></a>
 
-        <a href=""><button class="airdrop"><i class="fa fa-dollar"></i> Airdrop</button></a>
-        <a href=""><button class="buy"><i class="fa fa-credit-card"></i> Buy Now</button></a>
+        <a href=""><button><i class="material-icons">monetization_on</i> Airdrop</button></a>
+        <a href=""><button><i class="fa fa-credit-card"></i> Buy Now</button></a>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Links</a></li>
+                <li><a href="#decoy">About</a></li>
+                <li><a href="#feature5">Roadmap</a></li>
             </ul>
 
             <div class="hamburger" id="hamburger" onclick="menu()">
@@ -38,16 +39,16 @@
     <div class="mobile" id="mobile" style="transform: translateX(-100%);">
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Links</a></li>
-            <a href=""><button class="airdrop"><i class="fa fa-dollar"></i> Airdrop</button></a>
-        <a href=""><button class="buy" tooltip="not available yet"><i class="fa fa-credit-card"></i> Buy Now</button></a>
+            <li><a href="#decoy">About</a></li>
+            <li><a href="#feature5">Roadmap</a></li>
+            <a href=""><button><i class="material-icons">monetization_on</i> Airdrop</button></a>
+        <a href=""><button><i class="fa fa-credit-card"></i> Buy Now</button></a>
         </ul>
     </div>
 
     <main>
         <section class="hero">
-            <h1>Wiki<span style="color: #a3612c;">Paw</span></h1>
+            <h1>WIKI<span style="color: #a3612c; font-family: 'Ubuntu', sans-serif;">PAW <i class="material-icons">pets</i></span></h1>
             <p>
                 WikiPaw (WKP) is a meme token bringing the power of decentralized, community-led currency to millions across the world.
                 
@@ -65,9 +66,9 @@
                 (WikiPaw Club), where users can hold, buy and sell unique NFTs on a p2p platform.
             </p> -->
 
-            <div>
+            <div id="decoy">
                 <button><i class="fa fa-credit-card"></i> Buy Now</button>
-                <button><i class="fa fa-telegram"></i> Join Our Telegram</button>
+                <a href="https://t.me/+3abBClUcJ6UzMDdk"><button><i class="fa fa-telegram"></i> Join Our Telegram</button></a>
             </div>
         </section>
 
@@ -75,12 +76,13 @@
 
         <h1 class="typical">FEATURES</h1>
         <section class="features">
+            
             <div class="feature" id="feature1">
-                <h1><i class="fa fa-fire"></i>Fair Launch</h1> <br>
-                <p>Available to everyone, Our wikipaw (WKP) is available to everyone on PancakeSwap V2.</p>
+                <h1><i class="material-icons">lock</i> 20% APY Liquidity Earn</h1> <br>
+                <p>Earn up to 20% APY when you add to WKP liquidity pool. Click <a href="">here</a> to add to the WKP/BNB liquidity pool pair on PancakeSwap.</p>
             </div>
             <div class="feature" id="feature2">
-                <h1><i class="fa fa-fire"></i> Frequent Burn</h1> <br>
+                <h1><i class="material-icons">local_fire_department</i> Frequent Burn</h1> <br>
                 <p>10%, 15% and 20% of WKP will be burnt at different intervals within Phase 1 to Phase 4 as stated in the roadmap.</p>
             </div>
             <div class="feature" id="feature3">
@@ -88,10 +90,13 @@
                 <p>WKP economics are strictly community-driven. Contract ownership has been renounced and this places the power into the hands of the WKP community.</p>
             </div>
             <div class="feature" id="feature4">
-                <h1><i class="fa fa-dollar"></i> AirDrops</h1> <br>
+                <h1><i class="material-icons">monetization_on</i> AirDrops</h1> <br>
                 <p>Frequent airdrops in controlled quantities to make WKP available to anyone and everyone. Keep an eye out!</p>
             </div>
-
+            <div class="feature" id="feature5">
+                <h1><i class="material-icons">public</i> Fair Launch</h1> <br>
+                <p>Available to everyone, Our wikipaw (WKP) is available to everyone on PancakeSwap V2.</p>
+            </div>
         </section>
 
         <br> <br><br>
@@ -162,7 +167,7 @@
 
         
         <section class="tokenomics">
-        <h1 class="typical">Tokenomics</h1>
+        <h1 class="typical">TOKENOMICS</h1>
 
             <img id="allocation" src="./images/WikiPaw Allocation.png" alt="">
         </section>
@@ -170,7 +175,7 @@
         <br> <br> <br>
 
         <section class="how-to">
-            <h1 class="typical">How to Buy</h1>
+            <h1 class="typical">HOW TO BUY</h1>
     
             <ul class="roadmap" id="buy-list">
                 <li>Go to the app store and download the app, Trust Wallet.</li>
@@ -180,10 +185,10 @@
                 <li>Click the icon with the dials at the top left, then set the slippage tolerance to 11-12%, and close that interface once done.</li>
                 <li>Put the amount of BNB you wish to spend in the "From" box, and press the "Swap" button.</li>
                 <li>Click the swap button & confirm the transaction … Congratulations you now own WikiCat Coin!</li>
-           
+           <br>
             <b>Contract Address:</b>
-           <p>yfrrihgirhgiu;tuhighihguhg;guguhuguhu
-            <button>copy</button>
+           <p style="word-wrap: break-word;">0x344B106EeAF3D1E0AF69c90B3Ec538c1c8F82952
+            <button onclick="copyf()" id="copy-btn">Copy</button>
         </p>
             </ul>
             </section>
@@ -236,24 +241,24 @@
                 <b>
                     <li>Browse</li>
                 </b>
-                <li>Home</li>
-                <li>How to buy</li>
-                <li>Buy now</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#how-to">How to buy</a></li>
+                <li><a href="">Buy now</a></li>
             </ul>
             <ul>
                 <b>
                     <li>Important</li>
                 </b>
-                <li>Chart</li>
-                <li>Contract</li>
-                <li>Liquidity</li>
-                <li>About</li>
+                <li><a href="#">Chart</a></li>
+                <li><a href="https://bscscan.com/token/0x344b106eeaf3d1e0af69c90b3ec538c1c8f82952">Contract</a></li>
+                <li><a href="#">Liquidity</a></li>
+                <li><a href="#feature1">About</a></li>
             </ul>
             <ul>
                 <b>
                     <li>Email</li>
                 </b>
-                <li>wikipaw@info.com</li>
+                <li><a href="mailto:eustacedyke@gmail.com">wikipaw@info.com</a></li>
                 <li></li>
                 <li></li>
             </ul>
