@@ -9,6 +9,7 @@ var e = document.getElementById('phase1');
 var f = document.getElementById('phase2');
 var g = document.getElementById('phase3');
 var h = document.getElementById('phase4');
+var i = document.getElementById('allocation');
 
 window.addEventListener('scroll', ()=>{
     if ((window.innerHeight + window.pageYOffset) > (a.offsetTop + 160)) {
@@ -51,7 +52,11 @@ window.addEventListener('scroll', ()=>{
         h.style.transform = "translateX(250%)";
     }
 
-
+    if ((window.innerHeight + window.pageYOffset) > (i.offsetTop + 240)) {
+        i.style.transform = "scale(1)";
+    } else {
+        i.style.transform = "scale(0)";
+    }
 
     });
 
